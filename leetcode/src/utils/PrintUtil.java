@@ -9,6 +9,10 @@ import java.util.List;
  * @version 1.0
  */
 public class PrintUtil {
+
+    private PrintUtil() {
+    }
+
     public static void printIntList(List<Integer> list) {
         for (Integer num : list) {
             System.out.print(num + ", ");
